@@ -1,0 +1,37 @@
+.sidemenu-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+  background-color: #fff;
+  width: 25%;
+  border-radius: 16px;
+  .patient-info-container {
+    height: calc(100vh - 150px);
+    overflow-y: scroll;
+  }
+  .sidemenu-search {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 0px;
+  }
+  .sidemnu-user {
+    display: flex;
+    column-gap: 12px;
+    padding: 0px 20px;
+    .sidemenu-img-wrapper {
+      .user-img {
+        width: 48px;
+        height: 48px;
+      }
+    }
+    .patient-wrapper {
+      flex: 1;
+      .patient-info {
+        display: flex;
+      }
+    }
+  }
+  .sidemnu-user:nth-child(n+1){
+    padding-bottom: 32px;
+  }
+}

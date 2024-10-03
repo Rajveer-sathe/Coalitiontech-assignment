@@ -1,0 +1,29 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 70px;
+  width: 100%;
+  height: 72px;
+  padding: 0px 32px;
+  .nav-items {
+    display: flex;
+    column-gap: 40px;
+    .nav-img-wrapper {
+      display: flex;
+      column-gap: 12px;
+      img {
+        width: 17px;
+      }
+    }
+  }
+  .profile-wrapper {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    .profile-img {
+      height: 44px;
+    }
+  }
+}
